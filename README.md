@@ -12,7 +12,14 @@ Predict Airbnb prices with k-NN regression.
 
 
 
+
+
+
+
+
+
 📂 DATASETS
+
 Dataset	Task	**Target**
 
 Email Spam	Binary Classification	is_spam
@@ -24,6 +31,13 @@ Disease Stage	Multiclass Classification	stage
 Flowers	Classification	species
 
 Airbnb Prices	Regression	price
+
+
+
+
+
+
+
 
 
 
@@ -40,7 +54,15 @@ pip install numpy pandas scikit-learn matplotlib seaborn
 
 
 
+
+
+
+
+
+
+
 **📌 TASKS**
+
 **1️⃣ Email Spam (Logistic Regression)**
 
 Features: word_free, word_offer, word_click, num_links, num_caps, sender_reputation
@@ -88,6 +110,9 @@ Features: size_m2, distance_center_km, rating, num_reviews
 Use 5-fold CV to pick best k
 
 Report: CV RMSE, Test RMSE, Test R²
+
+
+
 
 
 
